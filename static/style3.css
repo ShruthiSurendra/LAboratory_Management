@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0;
+}
+
+.blood{
+width:100px;
+height:100px;
+background-color: #D6D6D6;
+
+}
+
+.blood .des{
+margin-left:100px;
+background-color: white;
+
+
+}
+
+.des{
+display:none;
+}
+.blood:hover .des{
+display:block;
+}

@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background: #ffffff;
+    width:95%;
+    height: 700px;
+    background-size: 90%;
+}
+h1{
+    text-align: center;
+    margin-left:100px;
+    margin-top: 30px;
+    color: Black;
+}
+
+
+.register {
+    width: 300px;
+    height: 680px;
+    color:black;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px;
+    box-shadow: 0 0 2em;
+}
+
+.register p{
+    margin: 0;
+    padding: 1s5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.register input {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.register input[type="text"],
+input[type="number"],
+input[type="Email"]
+{
+    width: 230px;
+    padding:15px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: 2px solid green;
+    height: 13px;
+    color:black;
+    font-size: 14px;
+    
+
+}
+
+.register input[type="submit"] {
+                    margin-top:30px;
+                    width:150px;
+                    height:40px;
+                    background-color: transparent;
+                    border-radius: 20px;
+                    margin-left: 180px;
+                    border: 2px solid green;
+                    outline: none;
+                    color:black;
+                    font-weight: 600;
+}
+
+.register input[type="submit"]:hover{
+    background: #00FF00;
+    cursor: pointer;
+       color: black;
+         }

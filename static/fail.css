@@ -1,0 +1,64 @@
+.box{ background: whitesmoke;
+    text-align: center;
+    width: 400px;
+    height: 239px;
+     top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 18px 18px 2em 10px;
+    border-radius: 5px;
+  }
+
+  .content{
+      margin-top: 37px;
+      color:#ff0000;
+      font-family: 'Acme', sans-serif;
+    
+  }
+
+  .content .m{
+      font-size: 28px;
+      font-weight: 600;
+      color: black;
+  }
+
+  .content .n{
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: black;
+  }
+
+  body{
+    background: #4dff4d;
+  }
+
+  .but{
+      width:170px;
+      height:40px;
+      border-radius: 16px;
+      border: 2px solid #00FF00;
+      background: white;
+    text-align: center;
+    color: black;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+
+
+  }
+
+  .but a{
+    font-weight: 600;
+    font-size: 13px;
+      text-decoration: none;
+      top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+  }

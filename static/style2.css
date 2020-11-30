@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+body {
+    background: #34495e;
+    font-family: sans-serif;
+}
+.loginbox{
+    margin-top: 50px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.box{
+    margin-top: 50px;
+}
+.name{
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.password{
+    margin-left: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.email{
+    margin-left: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gender{
+    margin-left: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.phone{
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name p{
+    font-size:18px;
+    font-weight:600;
+}
+
+.password p{
+    font-size:18px;
+    font-weight:600;
+}
+.email p{
+    font-size:18px;
+    font-weight:600;
+}
+
+.gender p{
+    font-size:18px;
+    font-weight:600;
+}
+
+.phone p{
+    font-size:18px;
+    font-weight:600;
+}
+
+.ut label{
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.name  input{
+    background: transparent;
+width: 180px;
+height:40px;
+margin-left: 99px;
+border: 2px solid red;
+border-radius: 20px;
+text-align: center;
+outline: none;
+cursor: pointer;
+transition: 0.25s;
+
+
+}
+
+.password input{
+    background: transparent;
+    width: 180px;
+    height:40px;
+    margin-left: 70px;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+    }
+
+.email input{
+        background: transparent;
+        width: 180px;
+        height:40px;
+        margin-left: 99px;
+        border: 2px solid red;
+        border-radius: 20px;
+        text-align: center;
+        outline: none;
+        cursor: pointer;
+               transition: 0.25s;
+        }
+
+.gender input{
+            background: transparent;
+            width: 180px;
+            height:40px;
+            margin-left: 99px;
+            border: 2px solid red;
+            border-radius: 20px;
+            text-align: center;
+            outline: none;
+            cursor: pointer;
+                   transition: 0.25s;
+            }
+          
+.avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 60%;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+        }
+.phone  input{
+                background: transparent;
+                width: 180px;
+                height:40px;
+                margin-left: 42px;
+                border: 2px solid red;
+                border-radius: 20px;
+                text-align: center;
+                outline: none;
+                cursor: pointer;
+                transition: 0.25s;
+                }
+
+ .submit input[type="submit"]{
+                    margin-top:30px;
+                    width:150px;
+                    height:40px;
+                    background-color: transparent;
+                    border-radius: 20px;
+                    margin-left: 180px;
+                    border: 2px solid #00FF00;
+                    outline: none;
+                    color:white;
+                    font-weight: 600;
+                }
+.submit input[type="submit"]:hover{
+                    background: #00FF00;
+                    cursor: pointer;
+                       color: black;
+                         }
+.name input[type="text"]{
+                             font-weight: 600;
+                         }
+                  
+.gender input[type="text"]{
+                            font-weight: 600;
+                        }
+.password input[type="password"]{
+                            font-weight: 600; 
+                         }
+
+.email input[type="Email"]{
+                            font-weight: 600; 
+                         }
+
+.name input[type="text"]:focus,
+.password input[type="password"]:focus,
+.gender input[type="text"]:focus,
+.email input[type="Email"]:focus {
+                        width: 230px;
+                         
+                         
+                         }
+
+.phone input[type="tel"]{
+                            font-weight: 600;
+                         }
+
+.phone input[type="tel"]:focus {
+                            width: 230px;
+                        
+                        
+                        }
