@@ -1,0 +1,40 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'copd6.css' %}">
+</head>
+<body>
+                      <div class="loginbox">
+
+                                    <div class="bun">
+                                         <h1>COPD REGISTRATION</h1>
+                                    </div>
+                                    <div class="register">
+                                          <form action="Copd" method="post">
+                                              {% csrf_token %}
+                                              <p>Name</p>
+                                              <input type="text" name="Name" placeholder="Enter the name">
+                                              <p>Aadhar No</p>
+                                              <input type="number" name="Aadhar" placeholder="Enter the aadhar" pattern="[[789][0-9]{9}" maxlength="12">
+                                              <p>Email</p>
+                                              <input type="Email" name="Email" placeholder="Enter the email">
+                                              <p>Age</p>
+                                              <input type="number" name="Age" placeholder="Enter the age">
+                                              <p>Gender</p>
+                                              <input type="number" name="Gender" placeholder="enter the gender">
+                                              <p>Weight</p>
+                                              <input type="number" name="Weight" placeholder="Enter the weight">
+                                              <p>Lip Colour</p>
+                                              <input type="number" name="Lipcolour" placeholder="Enter the lip colour">
+                                              <p>Fev</p>
+                                              <input type="text" name="Fev" placeholder="enter the fev">
+                                              <p>Smoking Intensity</p>
+                                              <input type="text" name="Intensity" placeholder="Enter the Intensity">
+                                              <p>Temperature</p>
+                                              <input type="number" name="Temperature" placeholder="Enter the temperature">
+                                              <input type="submit" name="" value="Submit">
+                                          </form>
+                                    </div>
+                      </div>
+</body>
+</html>

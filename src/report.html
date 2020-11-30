@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report of the Patient</title>
+  <link rel="stylesheet" href="{% static 'report.css' %}">
+</head>
+<body>
+<div class="loginbox">
+
+  <div class="bun">
+    <h1>Patient report</h1>
+    </div>
+                                    <div class="report">
+                                          <form>
+
+
+                                              <p>Name</p>
+                                              <input type="text" name="Name" value="{{name}}" placeholder="Enter the name">
+                                              <p>Aadhar No</p>
+                                              <input type="number" name="Aadhar" value="{{aadhar}}" placeholder="Enter the aadhar">
+                                              <p>Email</p>
+                                              <input type="Email" name="Email" value="{{email}}" placeholder="Enter the email">
+                                              <p>Age</p>
+                                              <input type="number" name="Age" value="{{age}}" placeholder="Enter the age">
+                                              <p>Gender</p>
+                                              <input type="number" name="Gender" value="{{gender}}"placeholder="enter the gender">
+                                              <p>Weight</p>
+                                              <input type="number" name="Weight" value="{{weight}}" placeholder="Enter the weight">
+                                              <p>Lip Colour</p>
+                                              <input type="number" name="Lipcolour" value="{{lipcolour}}" placeholder="Enter the lip colour">
+                                              <p>Fev</p>
+                                              <input type="text" name="Fev" value="{{fev}}" placeholder="enter the fev">
+                                              <p>Smoking Intensity</p>
+                                              <input type="text" name="Intensity" value="{{smoke}}" placeholder="Enter the Intensity">
+                                              <p>Temperature</p>
+                                              <input type="number" name="Temperature" value="{{temperature}}" placeholder="Enter the temperature">
+                                              <p>Medication</p>
+                                              <input type="text" name="Med" value="{{med}}" placeholder="">
+                                              <p>Prediction</p>
+                                              <input type="text" name="Pred" value="{{pred}}" placeholder="">
+
+                                          </form>
+                                        </div>
+                      </div>
+</body>
+</html>

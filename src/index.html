@@ -1,0 +1,324 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Health Diagnostics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %} "/>
+    <link rel="stylesheet" href="{% static 'mobile-style.css' %}" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-stethoscope fa-2x mx-3 mt-1" aria-hidden="true"></i>Health Diagnostics</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link ml-5" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register">Register</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Tests</a>
+                                <div class="dropdown-content">
+                                    <a href="blood">Blood Test</a>
+                                    <a href="vitamin">Vitamin Test</a>
+                                    <a href="hormone">Hormone Test</a>
+                                    <a href="serology">Serology</a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Services</a>
+                                <div class="dropdown-content">
+                                    <a href="Login">Login</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#middle">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h1>OUR VISION</h1>
+                    <p>Through the combination of scientific leadership, market leading technology and talented people, we will create an iconic pathology practice and be the pathology provider of choice.</p>
+                    <h1>OUR MISSION</h1>
+                    <p>
+                            to empower decision making that saves and improves our patient’s lives.We have the strongest teams in pathology through skill and capability investment.
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-12 h-25">
+                    <img src="{% static 'B9323874851Z.1_20160918174344_000_GF4FON54J.1-0.jpg' %}" alt="cant open">
+
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pray">
+                            <img src="{% static 'bacteria.jpg' %}" alt="enna">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <a name=middle></a>
+                            <h1>About Us</h1>
+                            <p class="pt-4">Health Diagnostics operates with a Centralized Processing Laboratory (CPL) in Bangalore- India for esoteric tests; and Regional Processing Laboratory in major metro cities of India and other parts of Asia. We have focus on strong technologies, strong brands and strong systems that enable all laboratories to give their clients the best of science and technology at an affordable cost.
+                                    With a belief that 'Quality' is the heart of any intelligent management, It became one of the first Indian diagnostic laboratories to obtain internationally renowned quality accreditations like ISO 9001-2000 rating as early as 2001.Our clear focus on speed and accuracy further made us the first Indian laboratory to also have an IT enabled, 24x7, fully automated diagnostic laboratory set up covering over 2,00,000 sq. ft. Our unmatched speed factor is achieved through a combination of  barcoded, bi-directional systems that ensures a turnaround time of 4 to 8 hours for processing of samples that arrive at any time of the day or night.
+                                    . The uniqueness of Health Diagnostics is its effort to innovate and remain at par of the global standards for best of quality service delivery, at the most cost-effective prices.
+                                    Many laboratories and hospital brands in India, Middle East and South East Asian countries, use Health Diagnostics to complete their menu and deliver quality at an affordable cost.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="content text-center">
+                    <h1>Some Features that made us prominent</h1>
+
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>3500</h1>
+                        <p>Satisfied patients</p>
+                    </div>
+                    <div class="rect">
+                        <h1>500</h1>
+                        <p>Technicians</p>
+
+                    </div>
+                    <div class="rect">
+                        <h1>150</h1>
+                        <p>Major Investors</p>
+
+                    </div>
+                    <div class="rect">
+                        <h1>1500</h1>
+                        <p>Daily Samples</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="section-3 container-fluid p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Download Our App For All platforms</h1>
+
+
+
+                </div>
+            </div>
+            <div class="platform row">
+                <div class="col-md-6 col-sm-12 text-right">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">Desktop</h3>
+                                <p class="p-0 m-0">On Website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-left">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">mobile</h3>
+                                <p class="p-0 m-0">On Playstore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="container text-center">
+                <h1 class="text-dark">Our Trusted Partners</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="team row">
+
+                <div class="col-md-4 col-12 text-center ">
+                    <div class="card mr-2 d-inline-block shadow-lg ">
+                        <div class="card-img-top">
+                            <img src="{% static 'partner.png' %}" alt="iMember"
+                                class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+
+                            <h3 class="card-title">QUEST DIAGNOSTICS</h3>
+                            <p class="card-text">One of Our Major Partner.</p>
+                            <a href="#" class="text-secondary text-decoration-none"> Stephen H. Rusckowski</a>
+                            <p class="text-black-50">CEO at Quest Diagnostics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <!--carousel started-->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <!--card 2-->
+                                <div class="card mr-2 d-inline-block shadow-lg ">
+                                    <div class="card-img-top">
+                                        <img src="{% static 'partner1.png' %}" alt="iMember"
+                                            class="img-fluid rounded-circle w-50 p-4">
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h3 class="card-title">MS Laboratoies</h3>
+                                        <p class="card-text"></p>
+                                        <a href="#" class="text-secondary text-decoration-none">Arindam Halder</a>
+                                        <p class="text-black-50">CEO at MS Laboratories</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text center">
+                                <!--caer 3-->
+                                <div class="card mr-2 d-inline-block shadow-lg ">
+                                    <div class="card-img-top">
+                                        <img src="{% static 'partner2.png' %}" alt="iMember"
+                                            class="img-fluid rounded-circle w-50 p-4">
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h3 class="card-title"> Metropolis Laboratories</h3>
+                                        <p class="card-text ">
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">Ameera Shah</a>
+                                        <p class="text-black-50 ">CEO at Metropolis</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <!--card 4-->
+                    <div class="card mr-2 d-inline-block shadow-lg ">
+                        <div class="card-img-top">
+                            <img src="{% static 'partner3.png' %}" alt="iMember" class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+
+                            <h3 class="card-title">Sekisui</h3>
+                            <p class="card-text"></p>
+                            <a href="#" class="text-secondary text-decoration-none">Bob Schruender</a>
+                            <p class="text-black-50">CEO at Sekisui</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a name="footer"></a>
+        <div class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-md-5">
+                    <h1 class="text-light">Contact Us</h1>
+                    <p class="text-muted">Mobile- 7748513289</p>
+                    <p class="text-muted">Landline- 080-252457</p>
+                    <p class="pt-4 text-muted">Copyright <i class="far fa-copyright"></i>2019 All Rights Reserved|This
+                        template is made with
+                        by<span>Daily Tution</span> </p>
+
+                </div>
+                <div class="col-md-5">
+                    <h4 class="text-light">News letter</h4>
+                    <p class="text-muted">Stay Updated</p>
+                    <form class="form-inline">
+                        <div class="col pl-">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Follow Us</h4>
+                    <p class="text-muted">Let Us be Social </p>
+                    <div class="column">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="{% static 'main.js' %}">
+    </script>
+</body>
+
+</html>

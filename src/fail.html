@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+    <head>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+            <script src="https://kit.fontawesome.com/0b72869b20.js" crossorigin="anonymous"></script>
+            <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="{% static 'fail.css' %}">
+    </head>
+    <body>
+
+        <div class="box">
+            <div class="content">
+        <a><i class="fa fa-times-circle-o fa-3x" aria-hidden="true"></i></a>
+        <p class="m">Oops</p>
+        <p class="n">Password entered was wrong!! </p>
+        </div>
+        <div class="but">
+        <a href="Login">Try again</a>
+        </div>
+        </div>
+    </body>
+</html>

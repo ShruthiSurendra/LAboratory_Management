@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+        <title>bloodTest Registration</title>
+        <link rel="stylesheet" href="{% static 'serologyreg.css' %}">
+
+</head>
+<body>
+    <h1 class="re">Test Registration</h1>
+    <div class="register">
+    <form action="sr" method="post">
+        {% csrf_token %}
+    <label>Patient Name</label><br>
+    <input type="text" name="Name"  placeholder="enter your name"><br><br>
+    <label>Location</label><br>
+    <input type="text" name="Location" placeholder="enter your Location"><br><br>
+    <label>contact Number</label><br>
+    <input type="text" name="Number"  placeholder="enter your number" pattern="[[789][0-9]{9}" maxlength="10" required><br><br>
+    <span id="messages"></span>
+    <label>Age</label><br>
+    <input type="number" name="Age" placeholder="Age"><br><br>
+
+    <label>Test Name</label>
+    <input type="text" name="Test" placeholder="enter your name"><br><br>
+
+
+    <label>Gender </label>
+    <input type="text" name="Gender"  placeholder="enter your name"><br><br><br>
+
+    <input type="submit" value="Submit"> <br><br>
+
+    </form>
+     </div>
+</body>
+
+</html>
